@@ -1,0 +1,458 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.clr {
+    clear: both;
+}
+
+.family-bakeryparent {
+    background-image: url(../images/drew-coffman-1872.jpg);
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    /* overflow: hidden; */
+}
+
+.navbar {
+    /* position: fixed; */
+    height: 15vh;
+}
+
+.img-navbar img {
+    width: 11%;
+    height: 40px;
+    margin: 15px 0px 0px 80px;
+}
+
+.icon-navbar {
+    margin-top: -16px;
+    font-size: 16px;
+}
+
+ul li {
+    list-style-type: none;
+}
+
+.icon-home {
+    float: right;
+    margin: -1% 32%;
+}
+
+.icon-about {
+    float: right;
+    margin: -1% 27%;
+}
+
+.icon-our {
+    float: right;
+    margin: -1% 21%;
+}
+
+.icon-gallery {
+    float: right;
+    margin: -1% 16%;
+}
+
+.icon-blog {
+    float: right;
+    margin: -1% 11%;
+}
+
+.icon-contact {
+    float: right;
+    margin: -1% 6%;
+}
+
+.body-familybakery {
+    text-align: center;
+    position: absolute;
+    top: 177px;
+    left: 261px;
+}
+
+.text-welcome {
+    color: #ccc;
+    font-size: 24px;
+    font-family: Alegreya Sans, sans-serif, monospace;
+    margin-top: -6px;
+}
+
+.text-familybakery {
+    color: #fff;
+    font-size: 70px;
+    margin-top: 4%;
+}
+
+.text-weare {
+    color: #ccc;
+    font-size: 24px;
+    font-family: Alegreya Sans, sans-serif, monospace;
+    margin-top: 4%;
+}
+
+.btn-learn {
+    background: #8e7754;
+    color: #fff;
+    padding: 15px 20px;
+    border: none;
+    font-size: 16px;
+    border-radius: 5px;
+    text-align: center;
+    margin-right: 10px;
+    cursor: pointer;
+    transition: all .3s;
+    font-family: Alegreya Sans, sans-serif, monospace;
+    margin-top: 2%;
+}
+
+.btn-contact {
+    color: #fff;
+    border: 2px solid #fff;
+    color: #333 !important;
+    background-color: #fff !important;
+    padding: 15px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: Alegreya Sans, sans-serif, monospace;
+}
+
+.img-whotextparent {
+    height: 100vh;
+    position: relative;
+}
+
+.img-whotext img {
+    width: 40%;
+    height: 78%;
+    position: absolute;
+    left: 105px;
+}
+
+.header-textwho {
+    position: absolute;
+    right: 340px;
+    top: 43px;
+}
+
+.longtext-whotext {
+    color: #686868;
+    font-family: Alegreya Sans, sans-serif, monospace;
+    position: absolute;
+    width: 42%;
+    top: 97px;
+    right: 100px;
+    line-height: 1.86em;
+    text-align: center;
+    font-size: 18px;
+}
+
+.icon-whotext {
+    position: absolute;
+    right: 433px;
+    top: 226px;
+    font-size: 18px;
+    color: #686868;
+    font-family: Alegreya Sans, sans-serif, monospace;
+    line-height: 1.86em;
+
+}
+
+.icon-whotext li {
+    padding-top: 22px;
+}
+
+.our-imgparent {
+    background-color: #f8f8f8;
+    height: 100vh;
+    margin-top: -122px;
+    position: relative;
+}
+
+.img-ourimg img {
+    width: 40%;
+    height: 73%;
+    position: absolute;
+    right: 113px;
+    top: 93px;
+}
+
+.header-textour {
+    position: absolute;
+    top: 114px;
+    left: 341px;
+}
+
+.longtext-ourtextpo {
+    position: absolute;
+    top: 192px;
+    left: 94px;
+    width: 667px;
+    color: #686868;
+    line-height: 1.86em;
+    margin-bottom: 20px;
+    font-family: Alegreya Sans, sans-serif, monospace;
+    text-align: center;
+}
+
+.longtext-ourtextpt {
+    position: absolute;
+    top: 358px;
+    left: 80px;
+    width: 667px;
+    color: #686868;
+    line-height: 1.86em;
+    margin-bottom: 20px;
+    font-family: Alegreya Sans, sans-serif, monospace;
+    text-align: center;
+}
+
+.ourbakingparent {
+    height: 100vh;
+    position: relative;
+}
+
+.ourbaking-text {
+    text-align: center;
+}
+
+.ourbaking-text p {
+    color: #686868;
+    line-height: 1.86em;
+    margin-top: 40px;
+    font-family: Alegreya Sans, sans-serif, monospace;
+}
+
+.ourbaking-content {
+    height: 70%;
+    margin: 30px 0px 0px 45px;
+    position: relative;
+}
+
+.ourbaking-content img {
+    width: 405px;
+    height: 328px;
+}
+
+.divone {
+    position: absolute;
+    top: 0px;
+    left: 80px;
+}
+
+.divone h4 {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.divone p {
+    color: #686868;
+    line-height: 1.86em;
+    font-family: Alegreya Sans, sans-serif, monospace;
+    width: 407px;
+    text-align: center;
+    margin-top: 13px;
+}
+
+.divtwo {
+    position: absolute;
+    top: 0px;
+    left: 540px;
+}
+
+.divtwo h4 {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.divtwo p {
+    color: #686868;
+    line-height: 1.86em;
+    font-family: Alegreya Sans, sans-serif, monospace;
+    width: 407px;
+    text-align: center;
+    margin-top: 13px;
+}
+
+.divthree {
+    position: absolute;
+    top: 0px;
+    left: 1000px;
+}
+
+.divthree h4 {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.divthree p {
+    color: #686868;
+    line-height: 1.86em;
+    font-family: Alegreya Sans, sans-serif, monospace;
+    width: 407px;
+    text-align: center;
+    margin-top: 13px;
+}
+
+.contact-map {
+    height: 100vh;
+    background-color: #f8f8f8;
+    position: relative;
+}
+
+.contactinformation-text h2 {
+    position: absolute;
+    top: 110px;
+    left: 285px;
+}
+
+.pone {
+    position: absolute;
+    top: 185px;
+    left: 95px;
+    color: #686868;
+    line-height: 1.86em;
+    font-family: Alegreya Sans, sans-serif, monospace;
+    width: 655px;
+    text-align: center;
+}
+
+.ptwo {
+    position: absolute;
+    top: 310px;
+    left: 95px;
+    color: #686868;
+    line-height: 1.86em;
+    font-family: Alegreya Sans, sans-serif, monospace;
+}
+
+.pthree {
+    position: absolute;
+    top: 350px;
+    left: 95px;
+    color: #686868;
+    line-height: 1.86em;
+    font-family: Alegreya Sans, sans-serif, monospace;
+}
+
+.map-img img {
+    position: absolute;
+    top: 51px;
+    right: 127px;
+    width: 565px;
+    height: 550px;
+}
+
+.whole-text {
+    height: 70vh;
+    background-color: #403d38;
+    position: relative;
+}
+
+.about-us {
+    position: absolute;
+    top: 65px;
+    left: 95px;
+    line-height: 1.86em;
+}
+
+.about-us h4 {
+    font-size: 22px;
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+.about-us p {
+    font-size: 20px;
+    color: #969696;
+    width: 320px;
+}
+
+.why-we {
+    position: absolute;
+    top: 65px;
+    left: 450px;
+    line-height: 1.86em;
+}
+
+.why-we h4 {
+    font-size: 22px;
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+.why-we p {
+    font-size: 25px;
+    color: #969696;
+    width: 320px;
+    padding-bottom: 20px;
+}
+
+.Opening-Hours {
+    position: absolute;
+    top: 65px;
+    left: 805px;
+    line-height: 1.86em;
+}
+
+.Opening-Hours h4 {
+    font-size: 22px;
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+.Opening-Hours p {
+    font-size: 25px;
+    color: #969696;
+    width: 320px;
+    padding-bottom: 40px;
+}
+
+.Contact-Details {
+    position: absolute;
+    top: 65px;
+    left: 1160px;
+    line-height: 1.86em;
+}
+
+.Contact-Details h4 {
+    font-size: 22px;
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+.Contact-Details p {
+    font-size: 25px;
+    color: #969696;
+    width: 320px;
+    padding-bottom: 22px;
+}
+
+.end {
+    height: 40vh;
+    background-color: #353330;
+    position: relative;
+    text-align: center;
+}
+
+.end-content {
+    padding-top: 50px;
+}
+
+.end-content img {
+    width: 18%;
+}
+
+.end-content p {
+    font-size: 14px;
+    color: #969696;
+    padding-top: 10px;
+}
